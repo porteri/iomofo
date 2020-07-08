@@ -1,6 +1,6 @@
-# xmlmofo
-XML file format writer using modern Fortran
+# iomofo
+Input/Output library in MOdern FOrtran
 
-This is a generic modern Fortran interface to write an XML formatted file
+This is a generic I/O library written in modern Fortran
 
 < More to be added soon!>
