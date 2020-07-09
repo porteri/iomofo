@@ -1,6 +1,6 @@
 # Add 'test' label to any change to any files within the tests dir
 test:
-- any: ['tests/**/*']
+- any: ['tests/unit/*']
 
 # Add 'source' label to any change to src files within the source dir
 source:
