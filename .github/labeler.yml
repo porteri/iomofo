@@ -1,16 +1,7 @@
-# Add 'repo' label to any root file changes
-repo:
-  - ./*
-
 # Add 'test' label to any change to any files within the tests dir
 test:
-  - any: ['tests/**/*']
+- any: ['tests/**/*']
 
 # Add 'source' label to any change to src files within the source dir
 source:
 - any: ['src/**/*']
-
-# Add 'frontend` label to any change to *.js files as long as the `main.js` hasn't changed
-frontend:
-- any: ['src/**/*.js']
-  all: ['!src/main.js']
